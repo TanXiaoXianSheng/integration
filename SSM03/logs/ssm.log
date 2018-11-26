@@ -1,0 +1,9 @@
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Mon Nov 26 19:15:09 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1330 ms
+No mapping found for HTTP request with URI [/SSM03/user/test] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/SSM03/user/test] in DispatcherServlet with name 'SpringMVC'
