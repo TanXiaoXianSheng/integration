@@ -3,6 +3,7 @@ package com.javen.dao;
 import com.javen.model.User;
 
 public interface UserDao {
+	
     int deleteByPrimaryKey(Integer id);
 
     int insert(User record);

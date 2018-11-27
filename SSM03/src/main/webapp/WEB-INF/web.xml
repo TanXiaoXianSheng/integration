@@ -11,10 +11,10 @@
     </welcome-file-list>  
   
     <!-- Spring和mybatis的配置文件 -->  
-   <!--  <context-param>  
+   <context-param>  
         <param-name>contextConfigLocation</param-name>  
         <param-value>classpath:spring-mybatis.xml</param-value>  
-    </context-param>   -->
+    </context-param>
     
     <filter>  
         <filter-name>encodingFilter</filter-name>  
@@ -31,13 +31,13 @@
     </filter-mapping>  
     
     <!-- Spring监听器 -->  
-   <!--  <listener>  
+   <listener>  
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>  
-    </listener>   -->
+    </listener>
     <!-- 防止Spring内存溢出监听器 -->  
-    <!-- <listener>  
+    <listener>  
         <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>  
-    </listener>  --> 
+    </listener>
   
     <servlet>  
         <servlet-name>SpringMVC</servlet-name>  

@@ -19,7 +19,7 @@ public class TestMyBatis {
     @Test  
     public void test1() {  
         User user = userService.getUserById(1);  
-        System.out.println(user.toString() + "---------------------------------------------------");
+        System.out.println(user.toString());
         logger.info(JSON.toJSONString(user));  
     }  
 }  
