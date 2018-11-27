@@ -873,3 +873,873 @@ Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produc
 Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
 Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
 FrameworkServlet 'SpringMVC': initialization completed in 961 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 13:06:18 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 922 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 13:06:19 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1217 ms
+No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/{rootpath}/user/test] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/{rootpath}/user/test] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/{rootpath}/user/test] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/{basePath}/user/test] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/{basePath}/user/test] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 13:29:18 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1121 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 13:29:19 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 970 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 13:30:34 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1083 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 13:30:35 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1062 ms
+No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jquery easyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jquery easyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 13:41:39 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 860 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 13:41:40 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1132 ms
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 13:44:49 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1020 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 13:44:50 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 944 ms
+No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 14:24:51 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1080 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 14:24:52 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1004 ms
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 14:27:11 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1100 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 14:27:12 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 963 ms
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 14:31:20 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1056 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 14:31:21 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1119 ms
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 14:50:46 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 775 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 14:50:47 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 873 ms
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 14:57:25 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1213 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 14:57:26 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1119 ms
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 15:13:00 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1245 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 15:13:01 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped URL path [/WEB-INF/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1076 ms
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 15:14:12 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1043 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 15:14:13 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1047 ms
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 15:14:45 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 869 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 15:14:46 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1160 ms
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 15:18:01 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1106 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 15:18:02 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1254 ms
+No mapping found for HTTP request with URI [/index.jsp] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/index.jsp] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/index.jsp] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/jsp/index.jsp] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/jsp/index.jsp] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 15:21:15 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1097 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 15:21:16 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped URL path [/resources/] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1035 ms
+No mapping found for HTTP request with URI [//resources/js/jqueryEasyUI/jquery.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/js/jqueryEasyUI/jquery.easyui.min.js] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/default/easyui.css] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/resources/css/themes/icon.css] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 15:24:44 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1087 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 15:24:45 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 976 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 15:52:24 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 887 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 15:52:25 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1187 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 16:25:43 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 891 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 16:25:44 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1096 ms
+Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 16:29:46 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1082 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 16:29:47 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 943 ms

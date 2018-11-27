@@ -18,5 +18,9 @@ public class UserServiceImpl implements UserService{
 		return userDao.selectByPrimaryKey(userId);
 	}
 
+	public User selectByUserName(String userName) {
+		return userDao.selectByUserName(userName);
+	}
+
 	
 }
