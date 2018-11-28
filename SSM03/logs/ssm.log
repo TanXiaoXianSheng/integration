@@ -1743,3 +1743,716 @@ Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[]
 Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
 Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
 FrameworkServlet 'SpringMVC': initialization completed in 943 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 16:45:11 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1164 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 16:45:12 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1200 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 16:52:31 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 974 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 16:52:32 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1072 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Tue Nov 27 19:46:09 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1242 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Nov 27 19:46:10 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1056 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 14:26:08 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1131 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 14:26:09 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 946 ms
+No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+Request method 'POST' not supported
+Request method 'POST' not supported
+Request method 'POST' not supported
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 14:30:52 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1217 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 14:30:53 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 972 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 14:47:19 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 2057 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 14:47:21 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public int com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 938 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 14:48:10 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1063 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 14:48:12 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public int com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1023 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 14:49:23 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1201 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 14:49:25 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public int com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1035 ms
+No mapping found for HTTP request with URI [/Server Error] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/Server Error] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/Server Error] in DispatcherServlet with name 'SpringMVC'
+No mapping found for HTTP request with URI [/Server Error] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 15:10:35 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1260 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 15:10:36 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1149 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 15:15:24 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1140 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 15:15:26 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.javen.controller.LoginController.login(com.javen.model.User,org.springframework.web.servlet.ModelAndView)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1063 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 15:46:37 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1047 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 15:46:38 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User,org.springframework.web.servlet.ModelAndView)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1136 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 15:51:36 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1253 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 15:51:37 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 984 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 15:53:08 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1210 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 15:53:09 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 940 ms
+No mapping found for HTTP request with URI [/[object Object]] in DispatcherServlet with name 'SpringMVC'
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 15:56:39 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1187 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 15:56:41 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1140 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 15:58:55 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1019 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 15:58:56 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(java.lang.String,com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 994 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:04:53 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1122 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:04:54 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(java.lang.String,com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1028 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:07:26 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1068 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:07:27 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(java.lang.String,com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 994 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:08:12 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1411 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:08:14 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1011 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:12:03 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1342 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:12:04 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(java.lang.String,java.lang.String,com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1216 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:14:24 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1111 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:14:25 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1117 ms
+Request method 'GET' not supported
+Request method 'GET' not supported
+Request method 'GET' not supported
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:15:49 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1185 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:15:50 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1018 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:21:59 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1138 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:22:00 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1229 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:31:17 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1386 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:31:18 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1006 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:32:30 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1073 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:32:31 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1141 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 16:38:53 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1153 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 16:38:54 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1062 ms
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2ef5e5e3: startup date [Wed Nov 28 17:02:31 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2ef5e5e3: startup date [Wed Nov 28 17:02:31 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@2ef5e5e3: startup date [Wed Nov 28 17:03:23 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@2ef5e5e3: startup date [Wed Nov 28 17:03:23 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Wed Nov 28 17:15:25 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@6cc4c815: startup date [Wed Nov 28 17:15:25 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:17:26 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:17:26 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:19:53 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:19:53 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:20:21 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:20:21 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:20:40 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:20:40 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:21:27 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:21:27 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:22:03 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@5d5eef3d: startup date [Wed Nov 28 17:22:03 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@689604d9: startup date [Wed Nov 28 17:22:12 CST 2018]; root of context hierarchy
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Closing org.springframework.context.support.GenericApplicationContext@689604d9: startup date [Wed Nov 28 17:22:12 CST 2018]; root of context hierarchy
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 17:28:53 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1550 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 17:28:54 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1409 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 17:29:59 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1322 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 17:30:01 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1435 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 17:32:33 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1291 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 17:32:35 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1515 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 17:34:30 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1479 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 17:34:31 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1658 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 17:37:26 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1381 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 17:37:27 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1322 ms
+Root WebApplicationContext: initialization started
+Refreshing Root WebApplicationContext: startup date [Wed Nov 28 17:47:47 CST 2018]; root of context hierarchy
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Loading properties file from class path resource [jdbc.properties]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Root WebApplicationContext: initialization completed in 1364 ms
+FrameworkServlet 'SpringMVC': initialization started
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Nov 28 17:47:49 CST 2018]; parent: Root WebApplicationContext
+Loading XML bean definitions from class path resource [spring-mvc.xml]
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Mapped "{[/login/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public net.sf.json.JSONObject com.javen.controller.LoginController.login(com.javen.model.User)
+Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+Mapped "{[/user/jsontype/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<com.javen.model.User> com.javen.controller.UserController.getUserInJson2(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.javen.model.User com.javen.controller.UserController.getUserInJson(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser3/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex3(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+Mapped "{[/user/showUser2],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex2(java.lang.String,org.springframework.ui.Model)
+Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+FrameworkServlet 'SpringMVC': initialization completed in 1402 ms

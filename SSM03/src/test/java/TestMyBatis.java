@@ -1,11 +1,13 @@
+import java.net.URL;
+
 import javax.annotation.Resource;  
 
-import org.apache.log4j.Logger;  
+import org.apache.log4j.Logger;
+import org.apache.log4j.spi.Filter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;  
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;  
-import com.alibaba.fastjson.JSON;  
 import com.javen.model.User;
 import com.javen.service.UserService;
 
@@ -20,6 +22,15 @@ public class TestMyBatis {
     public void test1() {  
         User user = userService.getUserById(1);  
         System.out.println(user.toString());
-        logger.info(JSON.toJSONString(user));  
+        //logger.info(JSON.toJSONString(user));  
     }  
+    
+    /**
+     * 测试哪些jar包冲突
+     */
+    @Test
+    public void testJar() {
+    	URL url = Filter.class.getProtectionDomain().getCodeSource().getLocation();
+    	System.out.println("path:" + url.getPath() + ",name:" + url.getFile() + "\n");
+    }
 }  

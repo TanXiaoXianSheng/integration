@@ -1,3 +1,7 @@
+/**
+ * 获取相对地址
+ * @returns
+ */
 function getRootpath(){
 	var rootpath = null;
 	//获取当前网址，如： http://localhost:8083/uimcardprj/share/meun.jsp
